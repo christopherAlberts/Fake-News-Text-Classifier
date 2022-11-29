@@ -18,3 +18,8 @@ In this approach, we're basically looking at the probability of observing counts
 Multinomial Naive Bayes is a very suitable approach for this type of text classification where we're taking a fragment of text, or a blog post, or a passage of text, and we're trying to classify it according to some topical scheme.
 
 In this problem, the inside the two categories we are essentially looking at the word types, so all the different words that you might have in your vocabulary, data types and data categories. We then make use of the multinomial distribution to basically observing the counts across these various word types.
+
+### Confusion Matrix
+
+![](code.png)
+![](ConfusionMatrix.png)
