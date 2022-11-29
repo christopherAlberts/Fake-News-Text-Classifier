@@ -28,4 +28,7 @@ In the following blocks of code, we'll make use of a TfidfVectorizer. We'll then
 ![](code.png)
 
 ### Confusion Matrix
+The below image indicates a confusion matrix that illustrates the accuracy score achieved by this model.
 ![](ConfusionMatrix.png)
+
+The image above indicates that the accuracy score of True news is around 94.7% and the score for predicting Fake news is around 94.1%. 
