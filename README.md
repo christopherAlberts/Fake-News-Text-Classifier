@@ -19,7 +19,13 @@ Multinomial Naive Bayes is a very suitable approach for this type of text classi
 
 In this problem, the inside the two categories we are essentially looking at the word types, so all the different words that you might have in your vocabulary, data types and data categories. We then make use of the multinomial distribution to basically observing the counts across these various word types.
 
-### Confusion Matrix
+### TfidfVectorizer
+
+When dealing with textual data, one can't use it in its raw form in one's models. We have to convert it to some numerical form, and one of the best ways of doing this by using approach which is called the TfidfVectorizer.
+In the following blocks of code, we'll make use of a TfidfVectorizer. We'll then import multinomial Naive Bayes(MultinomialNB) as our model. We'll put these two objects into a pipeline (make_pipeline). We will fit training data to the model, and then generate some labels by calling the predict method on the test data.
+
 
 ![](code.png)
+
+### Confusion Matrix
 ![](ConfusionMatrix.png)
