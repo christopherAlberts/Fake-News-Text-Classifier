@@ -33,4 +33,6 @@ The below image indicates a confusion matrix that illustrates the accuracy score
 
 The image above indicates that the accuracy score of True news is around 94.7% and the score for predicting Fake news is around 94.1%. 
 
+### predict_news_category()
+
 ![](predictNewsCategory.png)
