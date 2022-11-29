@@ -35,4 +35,6 @@ The image above indicates that the accuracy score of True news is around 94.7% a
 
 ### predict_news_category()
 
+The code below illustrates the predict_news_category() function I wrote, that uses the model in question to identify whether a given news article/title is in fact fake news or the real deal!
+
 ![](predictNewsCategory.png)
